@@ -46,43 +46,5 @@ int main() {
 }
 ```
 
-⚙️ Configuration
-
-Set minimum level (compile-time):
-
-#define TINYLOG_LEVEL tinylog::level::info
 
 
-Enable async mode:
-
-#define TINYLOG_ASYNC 1
-
-📦 Why TinyLog?
-
-✅ Perfect for mods & DLLs — one header, no deps.
-
-✅ Minimal footprint — small, compile-time filtering keeps it fast.
-
-✅ Clear logs — debug hooks, injections, or patches with ease.
-
-✅ Production-ready — rotation, thread safety, timers included.
-
-📜 License
-
-This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
-See the LICENSE
- file for details.
-
-💡 Roadmap
-
- Daily log rollover
-
- JSON/structured log sink
-
- ImGui in-game console sink
-
- Crash-safe append & backtrace support
-
-🤝 Contributing
-
-Pull requests and suggestions are welcome!
