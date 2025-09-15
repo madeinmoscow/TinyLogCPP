@@ -157,7 +157,7 @@ g++ -std=c++17 myapp.cpp -o myapp -lpthread
 
 ## License
 
-GNU General Public License v3.0
+MIT License.
 
 ## Thread Safety
 
